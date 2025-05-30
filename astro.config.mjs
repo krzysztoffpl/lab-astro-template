@@ -5,6 +5,7 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://splendid-faloodeh-045b1c.netlify.app",
+  site: 'https://krzysztoffpl.github.io',
+  base: 'lab-astro-template',
   integrations: [preact()]
 });
